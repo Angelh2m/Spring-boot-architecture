@@ -4,8 +4,9 @@ package com.app.mobile.service;
 
 import com.app.mobile.dto.UserDto;
 import com.app.mobile.entity.UserEntity;
-import com.app.mobile.entity.UserRepository;
+
 import com.app.mobile.interfaces.UserService;
+import com.app.mobile.repository.UserRepository;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,6 @@
-package com.app.mobile.entity;
+package com.app.mobile.repository;
+
+import com.app.mobile.entity.UserEntity;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
